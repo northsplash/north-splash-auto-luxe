@@ -253,5 +253,3 @@ h2 em { font-family: var(--serif); font-weight: 400; }
   .footer-links { flex-wrap: wrap; }
   .footer > small { grid-column: auto; }
 }
-
-
