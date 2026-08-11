@@ -475,23 +475,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="footer">
-        <div className="footer-brand">
-          <span className="brand-mark">NS</span>
-          <div><strong>NORTH SPLASH</strong><small>AUTO LUXE</small></div>
-        </div>
-        <p>Premium automotive care. Built around the finish.</p>
-        <div className="footer-links">
-          <button onClick={() => scrollTo("services")}>Services</button>
-          <button onClick={() => scrollTo("packages")}>Packages</button>
-          <button onClick={() => scrollTo("booking")}>Book</button>
-          <button onClick={() => scrollTo("contact")}>Contact</button>
-        </div>
-        <small>© 2026 North Splash Auto Luxe. All rights reserved.</small>
-      </footer>
-    </div>
-  );
-}
+     <footer className="footer"> <div className="footer-brand"> <span className="brand-mark">NS</span> <div><strong>NORTH SPLASH</strong><small>AUTO LUXE</small></div> </div> <p>Premium automotive care. Built around the finish.</p> <div className="footer-links"> <button onClick={() => scrollTo("services")}>Services</button> <button onClick={() => scrollTo("packages")}>Packages</button> <button onClick={() => scrollTo("booking")}>Book</button> <button onClick={() => scrollTo("contact")}>Contact</button> </div> <small>© 2026 North Splash Auto Luxe. All rights reserved.</small> <small>Powered by NS Venture Works</small> </footer> </div> ); }
 
 export default App;
 
